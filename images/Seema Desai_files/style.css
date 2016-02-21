@@ -1,0 +1,66 @@
+body {
+	background-color:#ADEDD2;
+	background-image: url(../images/skies.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	/* This is a comment */
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.main {
+	background-color: rgba(255,255,255,0.7);
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+	border-radius: 20px;
+	box-shadow: 0 0 7px 7px gray; 
+}
+
+
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-weight: normal;
+font-family: 'Roboto Condensed', sans-serif;
+font-size: 55px;
+margin-bottom: 0;
+}
+
+h2 {text-align: center;
+	margin-top: 0;
+}
+
+
+h3 {text-align: left;
+	cursor: pointer;
+	margin-bottom: 0;
+	}
+
+img {
+	width: 200px;
+	display: block; 
+	margin: 0 auto;
+	border: 5px solid gray;
+	border-radius: 50px;
+}
+
+p,
+ul,
+ol {
+	line-height: 1.6;
+	list-style: none;
+	padding-left: 0;
+}
+
+a {
+	font-weight: bold;
+	color: green;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: peru;
+}
